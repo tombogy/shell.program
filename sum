@@ -1,0 +1,9 @@
+echo "sum a number :"
+read a
+if (( $a % 2 == 0 ))
+then
+  echo " the $a is even number"
+else
+  echo " the $a is odd number"
+fi
+~
