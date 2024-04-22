@@ -1,0 +1,19 @@
+echo " prime number in a range "
+echo " "
+for n in {2..100}
+do
+is_prime=true
+for (( i=2;i<n;i++))
+do
+if [ $(( $n % $i )) -eq 0 ]
+then
+ is_prime=false
+ break
+fi
+done
+if $is_prime
+then
+  echo $n
+fi
+done
+
