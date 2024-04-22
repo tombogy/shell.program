@@ -1,0 +1,14 @@
+echo " enter a word :"
+read a
+b=$( rev <<< $a )
+if [[ $a == $b ]]
+then
+  echo "$a  pali ann"
+else
+   echo " $a  pali alla"
+fi
+~
+~
+~
+~
+~
