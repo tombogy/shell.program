@@ -1,0 +1,13 @@
+if [ $hour -lt 12 ]
+then
+echo " goog moring dasaaa"
+elif [$hour -le 16 ]
+then
+echo " good afternoon dasaaa"
+elif [ $hour -le 20 ]
+then
+echo " good evining dasaa"
+else
+echo " good night dassaa"
+fi
+
